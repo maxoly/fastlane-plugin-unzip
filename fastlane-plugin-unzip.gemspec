@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = %q{massimo.oliviero@gmail.com}
 
   spec.summary       = %q{Extract compressed files in a ZIP}
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-unzip"
+  spec.homepage      = "https://github.com/maxoly/fastlane-plugin-unzip"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)

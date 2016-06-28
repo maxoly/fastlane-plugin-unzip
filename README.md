@@ -14,13 +14,18 @@ fastlane add_plugin unzip
 
 Extract compressed files in a ZIP
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+```unzip will extract files from a ZIP archive. The default behavior is to extract into the current directory all files from the specified ZIP archive
 
 ## Example
 
 Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`. 
 
-**Note to author:** Please set up a sample project to make it easy for users to explore what your plugin does. Provide everything that is necessary to try out the plugin in this project (including a sample Xcode/Android project if necessary)
+```ruby
+unzip(file: "archive.zip")
+
+unzip(file: "archive.zip", destination_path: "./path/to/other/folder/")
+
+unzip(file: "archive.zip", password: "mysecret")
 
 ## Run tests for this plugin
 
