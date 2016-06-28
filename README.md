@@ -1,6 +1,8 @@
-# unzip plugin
+# unzip plugin 🎁
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-unzip)
+[![Gem Version](https://badge.fury.io/rb/fastlane-plugin-unzip.svg)](https://badge.fury.io/rb/fastlane-plugin-unzip)
+[![CircleCI](https://circleci.com/gh/maxoly/fastlane-plugin-unzip.svg?style=svg)](https://circleci.com/gh/maxoly/fastlane-plugin-unzip)
 
 ## Getting Started
 
