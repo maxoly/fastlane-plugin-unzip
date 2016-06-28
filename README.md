@@ -14,7 +14,7 @@ fastlane add_plugin unzip
 
 Extract compressed files in a ZIP
 
-```unzip will extract files from a ZIP archive. The default behavior is to extract into the current directory all files from the specified ZIP archive
+`unzip` will extract files from a ZIP archive. The default behavior is to extract into the current directory all files from the specified ZIP archive
 
 ## Example
 
@@ -26,6 +26,7 @@ unzip(file: "archive.zip")
 unzip(file: "archive.zip", destination_path: "./path/to/other/folder/")
 
 unzip(file: "archive.zip", password: "mysecret")
+```
 
 ## Run tests for this plugin
 
