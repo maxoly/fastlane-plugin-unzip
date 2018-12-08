@@ -34,7 +34,7 @@ unzip(file: "archive.zip", password: "mysecret")
 
 To run both the tests, and code style validation, run
 
-````
+```
 rake
 ```
 
